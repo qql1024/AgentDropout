@@ -34,7 +34,7 @@ from bs4 import BeautifulSoup
 from pylatexenc.latex2text import LatexNodes2Text
 from pptx import Presentation
 
-from AgentPrune.llm import VisualLLMRegistry
+from AgentPrune.llm.visual_llm_registry import VisualLLMRegistry
 from AgentPrune.utils.log import logger
 from AgentPrune.utils.globals import Cost
 

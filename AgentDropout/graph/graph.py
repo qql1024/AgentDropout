@@ -66,6 +66,7 @@ class Graph(ABC):
         self.agent_names:List[str] = agent_names
         self.optimized_spatial = optimized_spatial
         self.optimized_temporal = optimized_temporal
+        print(list(AgentRegistry.keys()))
         self.decision_node:Node = AgentRegistry.get(decision_method, **{"domain":self.domain,"llm_name":self.llm_name})
         self.nodes:Dict[str,Node] = {}
         self.potential_spatial_edges:List[List[str, str]] = []

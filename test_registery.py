@@ -42,7 +42,7 @@ messages = [
 client = InferenceClient(
     provider="novita",
     model="meta-llama/Meta-Llama-3-8B-Instruct",
-    api_key="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",
+    api_key="",
 )
 
 print(client.chat.completions.create(messages))

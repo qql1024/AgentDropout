@@ -66,7 +66,6 @@ class Graph(ABC):
         self.agent_names:List[str] = agent_names
         self.optimized_spatial = optimized_spatial
         self.optimized_temporal = optimized_temporal
-        print(list(AgentRegistry.keys()))
         self.decision_node:Node = AgentRegistry.get(decision_method, **{"domain":self.domain,"llm_name":self.llm_name})
         self.nodes:Dict[str,Node] = {}
         self.potential_spatial_edges:List[List[str, str]] = []
@@ -437,7 +436,7 @@ class Graph(ABC):
                 selected_index = torch.multinomial(p, num_samples=1, replacement=False)
                 # selected_index = list(self.nodes).index(min_node)
                 # selected_index = 1
-                for i in range(5):
+                for i in range(len(self.nodes)):
                     if i==selected_index:
                         log_probs_skip += 4.0*loss_t_list[i]
                     else:
@@ -569,15 +568,15 @@ class Graph(ABC):
         return self.spatial_masks, self.temporal_masks
 
     def update_masks_dec(self):
-        spatial_matrix_train = [param.reshape((5, 5)) for param in self.spatial_logits_1]
-        temporal_matrix_train = [param.reshape((5, 5)) for param in self.temporal_logits_1]
+        spatial_matrix_train = [param.reshape((len(self.nodes), len(self.nodes))) for param in self.spatial_logits_1]
+        temporal_matrix_train = [param.reshape((len(self.nodes), len(self.nodes))) for param in self.temporal_logits_1]
         # spatial_mask_train = [param.reshape((5, 5)) for param in self.spatial_masks]
         # temporal_mask_train = [param.reshape((5, 5)) for param in self.temporal_masks]
 
         for i in range(len(spatial_matrix_train)):
             min = 100
             min_node = -1
-            for j in range(5):
+            for j in range(len(self.nodes)):
                 sum = torch.sum(spatial_matrix_train[i][j,:]).item() + torch.sum(spatial_matrix_train[i][:,j]).item()
                 # if i >= 1:
                 #     sum += torch.sum(temporal_matrix_train[i-1][j,:]).item() + torch.sum(temporal_matrix_train[i-1][:,j]).item()
@@ -588,12 +587,12 @@ class Graph(ABC):
                     min_node = j
             # min_node=random.randint(0, 4)
             self.skip_nodes.append(min_node)
-            for k in range(5):
-                self.spatial_masks[i][min_node*5+k]=0
-                self.spatial_masks[i][k*5+min_node]=0
+            for k in range(len(self.nodes)):
+                self.spatial_masks[i][min_node*len(self.nodes)+k]=0
+                self.spatial_masks[i][k*len(self.nodes)+min_node]=0
             if i > 0:
-                for k in range(5):
-                    self.temporal_masks[i-1][k*5+min_node]=0
+                for k in range(len(self.nodes)):
+                    self.temporal_masks[i-1][k*len(self.nodes)+min_node]=0
             if i < len(spatial_matrix_train) - 1:
-                for k in range(5):
-                    self.temporal_masks[i][min_node*5+k]=0
+                for k in range(len(self.nodes)):
+                    self.temporal_masks[i][min_node*len(self.nodes)+k]=0

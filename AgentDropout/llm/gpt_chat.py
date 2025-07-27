@@ -13,10 +13,12 @@ from AgentDropout.llm.price import cost_count, cost_count_llama3, cost_count_dee
 from AgentDropout.llm.llm import LLM
 from AgentDropout.llm.llm_registry import LLMRegistry
 
+import torch
+
 
 load_dotenv()
-MINE_BASE_URL = ""
-MINE_API_KEYS = ""
+MINE_BASE_URL = os.getenv("MINE_BASE_URL")
+MINE_API_KEYS = os.getenv("VLLM_API_KEY")
 
 # print(MINE_BASE_URL)
 
@@ -85,11 +87,11 @@ async def achat_deepseek(model: str, msg: List[Dict],):
     except Exception as e:
         raise RuntimeError(f"Failed to complete the async chat request: {e}")
 
-# @retry(wait=wait_random_exponential(max=100), stop=stop_after_attempt(3))
+@retry(wait=wait_random_exponential(max=100), stop=stop_after_attempt(3))
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
 async def achat_llama(model: str, msg: List[Dict]):
     # print(111111111111)
-    api_kwargs = dict(api_key = "API-KEY", base_url = "http://localhost:6789/v1")
+    api_kwargs = dict(api_key = MINE_API_KEYS, base_url = MINE_BASE_URL)
     aclient = AsyncOpenAI(**api_kwargs)
     try:
         async with async_timeout.timeout(1000):
@@ -104,6 +106,99 @@ async def achat_llama(model: str, msg: List[Dict]):
     except Exception as e:
         print(f"Error in achat_llama: {e}")
         # raise
+
+# from huggingface_hub import AsyncInferenceClient
+# from tenacity import retry, wait_fixed, stop_after_attempt
+# import asyncio
+# from typing import List, Dict
+
+
+# from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
+# from transformers import modeling_utils
+
+# @retry(wait=wait_fixed(2), stop=stop_after_attempt(2))
+# async def achat_llama(model, tokenizer, messages):
+#     try:
+#         text = tokenizer.apply_chat_template(
+#                             messages,
+#                             tokenize=False,
+#                             add_generation_prompt=True
+#                         )
+
+#         inputs = tokenizer([text], return_tensors="pt").to(model.device)
+
+#         prompt_tokens = inputs['input_ids'].shape[1]
+
+#         outputs = model.generate(
+#             **inputs,
+#             max_new_tokens=1024,
+#             temperature=0.7,
+#             return_dict_in_generate=True
+#         )
+
+#         generated_tokens = outputs.sequences[0, inputs['input_ids'].shape[1]:]
+#         completion_tokens = generated_tokens.shape[0]
+#         total_tokens = prompt_tokens + completion_tokens
+        
+#         # Decode the generated text
+#         generated_text = tokenizer.decode(generated_tokens, skip_special_tokens=True)
+        
+#         # Format the complete response
+#         response = {
+#             "choices": [{
+#                 "message": {
+#                     "content": generated_text
+#                 }
+#             }],
+#             "usage": {
+#                 "prompt_tokens": prompt_tokens,
+#                 "completion_tokens": completion_tokens,
+#                 "total_tokens": total_tokens
+#             }
+#         }
+#         response_message = response["choices"][0]["message"]["content"]
+#         return response_message
+
+#     except Exception as e:
+#         print(f"Error in achat_llama: {e}")
+#         raise
+
+
+
+# @retry(wait=wait_fixed(2), stop=stop_after_attempt(2))
+# async def achat_llama(model: str, msg: List[Dict]):
+#     # Initialize HuggingFace async client
+#     print(f"model: {model}")
+#     client = AsyncInferenceClient(
+#         provider="novita",
+#         model=model,
+#         api_key="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",  # Replace with your HuggingFace token
+#         timeout=1000
+#     )
+    
+#     try:
+#         # Convert messages to prompt format (adjust based on model requirements)
+#         prompt = "\n".join([f"{m['role']}: {m['content']}" for m in msg])
+#         print(f"prompt: {prompt}")
+        
+#         # Generate response
+#         response = await client.chat.completions.create(
+#             messages=msg,
+#             max_tokens=1024,
+#             temperature=0.7,
+#         )
+
+#         print(f"response: {response}")
+        
+#         # Cost tracking (you'll need to adapt this for HuggingFace)
+#         prompt_text = "".join([item['content'] for item in msg])
+#         cost_count_llama3(prompt_text, response, model)
+        
+#         return response
+
+#     except Exception as e:
+#         print(f"Error in achat_llama: {e}")
+#         raise
     
 
 @LLMRegistry.register('GPTChat')
@@ -181,6 +276,21 @@ class LlamaChat(LLM):
         self.model_name = model_name
         # print(11111111111111111111)
         # self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
+        # self.model = AutoModelForCausalLM.from_pretrained(
+        #     self.model_name, 
+        #     device_map="cuda", 
+        #     torch_dtype=torch.bfloat16,
+        #     # trust_remote_code=True
+        # )
+        # print(f"Successfully loaded Hugging Face model: {self.model_name}")
+        
+        # self.model.eval() 
+        # self.tokenizer = AutoTokenizer.from_pretrained(
+        #         self.model_name, 
+        #         # device_map="auto", 
+        #         # torch_dtype="auto", 
+        #         # trust_remote_code=True
+        #     )
 
     async def agen(
         self,
@@ -199,7 +309,9 @@ class LlamaChat(LLM):
         
         if isinstance(messages, str):
             messages = [Message(role="user", content=messages)]
-        return await achat_llama(self.model_name,messages)
+        # return await achat_llama(self.model, self.tokenizer, messages)
+        return await achat_llama(self.model_name, messages)
+
     
     def gen(
         self,

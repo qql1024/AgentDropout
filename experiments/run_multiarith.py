@@ -126,7 +126,8 @@ async def main():
                 break
             
             for i_record, record in enumerate(current_batch):
-                realized_graph = copy.deepcopy(graph)
+                # realized_graph = copy.deepcopy(graph)
+                realized_graph = graph
                 realized_graph.spatial_logits_1 = graph.spatial_logits_1
                 realized_graph.temporal_logits_1 = graph.temporal_logits_1
                 

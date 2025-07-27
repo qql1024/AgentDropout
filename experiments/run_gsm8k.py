@@ -127,7 +127,8 @@ async def main():
                 break
             
             for i_record, record in enumerate(current_batch):
-                realized_graph = copy.deepcopy(graph)
+                # realized_graph = copy.deepcopy(graph)
+                realized_graph = graph
                 realized_graph.spatial_logits_1 = graph.spatial_logits_1
                 realized_graph.temporal_logits_1 = graph.temporal_logits_1
                 
@@ -191,7 +192,8 @@ async def main():
                     "Accuracy": accuracy
                 }
                 data.append(updated_item)
-                print(f"##########Final Log:{json.dumps(updated_item)}")
+                json.dumps(updated_item)
+                # print(f"##########Final Log:{json.dumps(updated_item)}")
             with open(result_file, 'w',encoding='utf-8') as file:
                 json.dump(data, file, indent=4)
             
@@ -256,7 +258,8 @@ async def main():
                 break
             
             for i_record, record in enumerate(current_batch):
-                realized_graph = copy.deepcopy(graph)
+                # realized_graph = copy.deepcopy(graph)
+                realized_graph = graph
                 realized_graph.spatial_logits = graph.spatial_logits
                 realized_graph.temporal_logits = graph.temporal_logits
                 
@@ -322,7 +325,8 @@ async def main():
                     "Accuracy": accuracy
                 }
                 data.append(updated_item)
-                print(f"##########Final Log:{json.dumps(updated_item)}")
+                json.dumps(updated_item)
+                # print(f"##########Final Log:{json.dumps(updated_item)}")
             with open(result_file, 'w',encoding='utf-8') as file:
                 json.dump(data, file, indent=4)
             
@@ -404,7 +408,8 @@ async def main():
         
         print(11111111)
         for i_record, record in enumerate(current_batch):
-            realized_graph = copy.deepcopy(graph)
+            # realized_graph = copy.deepcopy(graph)
+            realized_graph = graph
             realized_graph.spatial_logits = graph.spatial_logits
             realized_graph.temporal_logits = graph.temporal_logits
             
@@ -474,7 +479,8 @@ async def main():
                 "Accuracy": accuracy
             }
             data.append(updated_item)
-            print(f"##########Final Log:{json.dumps(updated_item)}")
+            json.dumps(updated_item)
+            # print(f"##########Final Log:{json.dumps(updated_item)}")
         with open(result_file, 'w',encoding='utf-8') as file:
             json.dump(data, file, indent=4)
         

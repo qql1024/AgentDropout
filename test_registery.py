@@ -5,7 +5,7 @@ def achat_llama(model):
     print(f"model: {model}")
     client = InferenceClient(
         model=model,
-        token="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",  # Replace with your HuggingFace token
+        token="",  # Replace with your HuggingFace token
         timeout=1000
     )
     

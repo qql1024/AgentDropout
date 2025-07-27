@@ -172,7 +172,7 @@ async def achat_llama(model: str, msg: List[Dict]):
 #     client = AsyncInferenceClient(
 #         provider="novita",
 #         model=model,
-#         api_key="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",  # Replace with your HuggingFace token
+#         api_key="",  # Replace with your HuggingFace token
 #         timeout=1000
 #     )
     

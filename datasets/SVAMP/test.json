@@ -1,0 +1,1262 @@
+[
+  {
+    "ID": "chal-694",
+    "Body": "Haley grew 14 trees in her backyard. After a typhoon 9 died.",
+    "Question": "How many more trees died in the typhoon than those that survived?",
+    "Equation": "( 9.0 - ( 14.0 - 9.0 ) )",
+    "Answer": "4",
+    "Type": "Subtraction",
+    "question_concat": "Haley grew 14 trees in her backyard. After a typhoon 9 died. How many more trees died in the typhoon than those that survived?"
+  },
+  {
+    "ID": "chal-928",
+    "Body": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 21 inches. The grasshopper jumped 25 inches farther than the frog and the mouse jumped 16 inches lesser than the frog.",
+    "Question": "How much farther did the grasshopper jump than the mouse?",
+    "Equation": "( 25.0 + 16.0 )",
+    "Answer": "41",
+    "Type": "Addition",
+    "question_concat": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 21 inches. The grasshopper jumped 25 inches farther than the frog and the mouse jumped 16 inches lesser than the frog. How much farther did the grasshopper jump than the mouse?"
+  },
+  {
+    "ID": "chal-87",
+    "Body": "2 birds and 6 storks were sitting on the fence. 3 more birds came to join them.",
+    "Question": "How many more storks than birds are sitting on the fence?",
+    "Equation": "( 6.0 - ( 2.0 + 3.0 ) )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "2 birds and 6 storks were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?"
+  },
+  {
+    "ID": "chal-491",
+    "Body": "Haley grew 20 trees in her backyard. After a typhoon 4 trees were left.",
+    "Question": "How many trees died in the typhoon?",
+    "Equation": "( 20.0 - 4.0 )",
+    "Answer": "16",
+    "Type": "Subtraction",
+    "question_concat": "Haley grew 20 trees in her backyard. After a typhoon 4 trees were left. How many trees died in the typhoon?"
+  },
+  {
+    "ID": "chal-933",
+    "Body": "Paul had 2 books. After selling some in a garage sale he bought 150 new ones. If he has 58 books now",
+    "Question": "How many books did he sell?",
+    "Equation": "( ( 2.0 + 150.0 ) - 58.0 )",
+    "Answer": "94",
+    "Type": "Subtraction",
+    "question_concat": "Paul had 2 books. After selling some in a garage sale he bought 150 new ones. If he has 58 books now How many books did he sell?"
+  },
+  {
+    "ID": "chal-775",
+    "Body": "Together Adam and Jackie have 12 apples. He has 9 apples more than Adam and Jackie together do. Adam has 8 more apples than Jackie.",
+    "Question": "How many apples does He have?",
+    "Equation": "( 12.0 + 9.0 )",
+    "Answer": "21",
+    "Type": "Addition",
+    "question_concat": "Together Adam and Jackie have 12 apples. He has 9 apples more than Adam and Jackie together do. Adam has 8 more apples than Jackie. How many apples does He have?"
+  },
+  {
+    "ID": "chal-730",
+    "Body": "A book has 2 chapters across 23 pages. The first chapter is 10 pages long.",
+    "Question": "How many pages are in the first chapter?",
+    "Equation": "( 23.0 - 10.0 )",
+    "Answer": "13",
+    "Type": "Subtraction",
+    "question_concat": "A book has 2 chapters across 23 pages. The first chapter is 10 pages long. How many pages are in the first chapter?"
+  },
+  {
+    "ID": "chal-762",
+    "Body": "Paco had 37 sweet cookies and 11 salty cookies. He ate 5 sweet cookies and 2 salty cookies.",
+    "Question": "How many more sweet cookies than salty cookies did he eat?",
+    "Equation": "( 5.0 - 2.0 )",
+    "Answer": "3",
+    "Type": "Subtraction",
+    "question_concat": "Paco had 37 sweet cookies and 11 salty cookies. He ate 5 sweet cookies and 2 salty cookies. How many more sweet cookies than salty cookies did he eat?"
+  },
+  {
+    "ID": "chal-32",
+    "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+    "Question": "How many roses did she cut?",
+    "Equation": "( 17.0 - 15.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase. How many roses did she cut?"
+  },
+  {
+    "ID": "chal-836",
+    "Body": "A grocery store had 57 bottles of regular soda, 26 bottles of diet soda and 27 bottles of lite soda.",
+    "Question": "How many bottles did they have total?",
+    "Equation": "( ( 57.0 + 26.0 ) + 27.0 )",
+    "Answer": "110",
+    "Type": "Addition",
+    "question_concat": "A grocery store had 57 bottles of regular soda, 26 bottles of diet soda and 27 bottles of lite soda. How many bottles did they have total?"
+  },
+  {
+    "ID": "chal-990",
+    "Body": "Rachel had to complete 4 pages of reading homework, 7 pages of math homework and 19 more pages of biology homework.",
+    "Question": "How many more pages of math homework than reading homework did she have?",
+    "Equation": "( 7.0 - 4.0 )",
+    "Answer": "3",
+    "Type": "Subtraction",
+    "question_concat": "Rachel had to complete 4 pages of reading homework, 7 pages of math homework and 19 more pages of biology homework. How many more pages of math homework than reading homework did she have?"
+  },
+  {
+    "ID": "chal-874",
+    "Body": "A farmer had 105 green tomatoes and 71 red tomatoes in his garden. If he picked 137 tomatoes",
+    "Question": "How many tomatoes are left?",
+    "Equation": "( ( 105.0 + 71.0 ) - 137.0 )",
+    "Answer": "39",
+    "Type": "Subtraction",
+    "question_concat": "A farmer had 105 green tomatoes and 71 red tomatoes in his garden. If he picked 137 tomatoes How many tomatoes are left?"
+  },
+  {
+    "ID": "chal-382",
+    "Body": "Jesse's room is 19 feet wide and 20 feet long.",
+    "Question": "How much longer is her room than it is wide?",
+    "Equation": "( 20.0 - 19.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "Jesse's room is 19 feet wide and 20 feet long. How much longer is her room than it is wide?"
+  },
+  {
+    "ID": "chal-77",
+    "Body": "Rachel had to complete 2 pages of reading homework and 4 pages of math homework.",
+    "Question": "How many more pages of math homework than reading homework did she have?",
+    "Equation": "( 4.0 - 2.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "Rachel had to complete 2 pages of reading homework and 4 pages of math homework. How many more pages of math homework than reading homework did she have?"
+  },
+  {
+    "ID": "chal-577",
+    "Body": "Julia played tag with 15 kids on monday, 18 kids on tuesday and 7 kids on wednesday.",
+    "Question": "How many more kids did she play with on monday and tuesday than on wednesday?",
+    "Equation": "( ( 15.0 + 18.0 ) - 7.0 )",
+    "Answer": "26",
+    "Type": "Subtraction",
+    "question_concat": "Julia played tag with 15 kids on monday, 18 kids on tuesday and 7 kids on wednesday. How many more kids did she play with on monday and tuesday than on wednesday?"
+  },
+  {
+    "ID": "chal-289",
+    "Body": "Jack received 6 emails in the morning and 8 emails in the afternoon.",
+    "Question": "How many more emails did Jack receive in the afternoon than in the morning?",
+    "Equation": "( 8.0 - 6.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "Jack received 6 emails in the morning and 8 emails in the afternoon. How many more emails did Jack receive in the afternoon than in the morning?"
+  },
+  {
+    "ID": "chal-894",
+    "Body": "There were 13 roses and 84 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 91 orchids and 14 roses in the vase.",
+    "Question": "How many roses did she cut?",
+    "Equation": "( 14.0 - 13.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "There were 13 roses and 84 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 91 orchids and 14 roses in the vase. How many roses did she cut?"
+  },
+  {
+    "ID": "chal-117",
+    "Body": "Each pot has 40 flowers in it. There are 400 flowers in total.",
+    "Question": "How many pots are there in all?",
+    "Equation": "( 400.0 / 40.0 )",
+    "Answer": "10",
+    "Type": "Common-Division",
+    "question_concat": "Each pot has 40 flowers in it. There are 400 flowers in total. How many pots are there in all?"
+  },
+  {
+    "ID": "chal-724",
+    "Body": "If you had 33 cookies and each bag has 11 cookies",
+    "Question": "How many bags of cookies do you have?",
+    "Equation": "( 33.0 / 11.0 )",
+    "Answer": "3",
+    "Type": "Common-Division",
+    "question_concat": "If you had 33 cookies and each bag has 11 cookies How many bags of cookies do you have?"
+  },
+  {
+    "ID": "chal-443",
+    "Body": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day.",
+    "Question": "How many drums of grapes would be filled in 146 days?",
+    "Equation": "( 244.0 * 146.0 )",
+    "Answer": "35624",
+    "Type": "Multiplication",
+    "question_concat": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?"
+  },
+  {
+    "ID": "chal-944",
+    "Body": "Randy has 86 blocks. He uses 79 blocks to build a tower and 82 blocks to build a house.",
+    "Question": "How many more blocks did he use to build the house than he did to build the tower?",
+    "Equation": "( 82.0 - 79.0 )",
+    "Answer": "3",
+    "Type": "Subtraction",
+    "question_concat": "Randy has 86 blocks. He uses 79 blocks to build a tower and 82 blocks to build a house. How many more blocks did he use to build the house than he did to build the tower?"
+  },
+  {
+    "ID": "chal-259",
+    "Body": "Marco and his dad went strawberry picking. His strawberries weighed 8 pounds while his dad's strawberries weighed 32 pounds.",
+    "Question": "Together how much did their strawberries weigh?",
+    "Equation": "( 8.0 + 32.0 )",
+    "Answer": "40",
+    "Type": "Addition",
+    "question_concat": "Marco and his dad went strawberry picking. His strawberries weighed 8 pounds while his dad's strawberries weighed 32 pounds. Together how much did their strawberries weigh?"
+  },
+  {
+    "ID": "chal-804",
+    "Body": "Jackie has 10 apples. Adam has 8 apples.",
+    "Question": "How many more apples does Jackie have than Adam?",
+    "Equation": "( 10.0 - 8.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "Jackie has 10 apples. Adam has 8 apples. How many more apples does Jackie have than Adam?"
+  },
+  {
+    "ID": "chal-548",
+    "Body": "At the zoo, a cage had 95 snakes and 61 alligators. If 64 snakes were hiding",
+    "Question": "How many snakes were not hiding?",
+    "Equation": "( 95.0 - 64.0 )",
+    "Answer": "31",
+    "Type": "Subtraction",
+    "question_concat": "At the zoo, a cage had 95 snakes and 61 alligators. If 64 snakes were hiding How many snakes were not hiding?"
+  },
+  {
+    "ID": "chal-250",
+    "Body": "There are 7 baskets of peaches. Each basket has 10 red peaches and 2 green peaches.",
+    "Question": "How many green peaches are in the baskets altogether?",
+    "Equation": "( 2.0 * 7.0 )",
+    "Answer": "14",
+    "Type": "Multiplication",
+    "question_concat": "There are 7 baskets of peaches. Each basket has 10 red peaches and 2 green peaches. How many green peaches are in the baskets altogether?"
+  },
+  {
+    "ID": "chal-133",
+    "Body": "22 children were riding on the bus. At the bus stop 40 children got on the bus while some got off the bus. Then there were 2 children altogether on the bus.",
+    "Question": "How many children got off the bus at the bus stop?",
+    "Equation": "( ( 22.0 + 40.0 ) - 2.0 )",
+    "Answer": "60",
+    "Type": "Subtraction",
+    "question_concat": "22 children were riding on the bus. At the bus stop 40 children got on the bus while some got off the bus. Then there were 2 children altogether on the bus. How many children got off the bus at the bus stop?"
+  },
+  {
+    "ID": "chal-779",
+    "Body": "David did 27 more push-ups but 7 less crunches than Zachary in gym class today. If Zachary did 5 push-ups and 17 crunches",
+    "Question": "How many more crunches than push-ups did Zachary do?",
+    "Equation": "( 17.0 - 5.0 )",
+    "Answer": "12",
+    "Type": "Subtraction",
+    "question_concat": "David did 27 more push-ups but 7 less crunches than Zachary in gym class today. If Zachary did 5 push-ups and 17 crunches How many more crunches than push-ups did Zachary do?"
+  },
+  {
+    "ID": "chal-415",
+    "Body": "Danny collects bottle caps and wrappers. He found 11 bottle caps and 28 wrappers at the park. Now he has 68 bottle caps and 51 wrappers in his collection.",
+    "Question": "How many more wrappers than bottle caps did danny find at the park?",
+    "Equation": "( 28.0 - 11.0 )",
+    "Answer": "17",
+    "Type": "Subtraction",
+    "question_concat": "Danny collects bottle caps and wrappers. He found 11 bottle caps and 28 wrappers at the park. Now he has 68 bottle caps and 51 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?"
+  },
+  {
+    "ID": "chal-21",
+    "Body": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes.",
+    "Question": "How many cakes does baker still have?",
+    "Equation": "( ( 121.0 - 105.0 ) + 170.0 )",
+    "Answer": "186",
+    "Type": "Addition",
+    "question_concat": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes. How many cakes does baker still have?"
+  },
+  {
+    "ID": "chal-30",
+    "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+    "Question": "How much did each candy bar cost?",
+    "Equation": "( 4.0 / 2.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money. How much did each candy bar cost?"
+  },
+  {
+    "ID": "chal-360",
+    "Body": "Jake has 9 fewer peaches than Steven and 18 more peaches than Jill. Steven has 16 peaches.",
+    "Question": "How many more peaches does Steven have than Jill?",
+    "Equation": "( 9.0 + 18.0 )",
+    "Answer": "27",
+    "Type": "Addition",
+    "question_concat": "Jake has 9 fewer peaches than Steven and 18 more peaches than Jill. Steven has 16 peaches. How many more peaches does Steven have than Jill?"
+  },
+  {
+    "ID": "chal-701",
+    "Body": "Every day Ryan spends 6 hours on learning english and 2 hours on learning chinese.",
+    "Question": "How many more hours does he spend on learning english than he does on learning chinese?",
+    "Equation": "( 6.0 - 2.0 )",
+    "Answer": "4",
+    "Type": "Subtraction",
+    "question_concat": "Every day Ryan spends 6 hours on learning english and 2 hours on learning chinese. How many more hours does he spend on learning english than he does on learning chinese?"
+  },
+  {
+    "ID": "chal-189",
+    "Body": "Frank had 42 pieces of candy. If he put them equally into 2 bags",
+    "Question": "How many pieces of candy are in each bag?",
+    "Equation": "( 42.0 / 2.0 )",
+    "Answer": "21",
+    "Type": "Common-Division",
+    "question_concat": "Frank had 42 pieces of candy. If he put them equally into 2 bags How many pieces of candy are in each bag?"
+  },
+  {
+    "ID": "chal-528",
+    "Body": "Luke played a trivia game and scored 154 points. If he gained the 11 points in each round",
+    "Question": "How many rounds did he play?",
+    "Equation": "( 154.0 / 11.0 )",
+    "Answer": "14",
+    "Type": "Common-Division",
+    "question_concat": "Luke played a trivia game and scored 154 points. If he gained the 11 points in each round How many rounds did he play?"
+  },
+  {
+    "ID": "chal-309",
+    "Body": "He also had 56 aquariums for saltwater animals and 10 aquariums for freshwater animals. Each aquarium has 39 animals in it.",
+    "Question": "How many saltwater animals does Tyler have?",
+    "Equation": "( 56.0 * 39.0 )",
+    "Answer": "2184",
+    "Type": "Multiplication",
+    "question_concat": "He also had 56 aquariums for saltwater animals and 10 aquariums for freshwater animals. Each aquarium has 39 animals in it. How many saltwater animals does Tyler have?"
+  },
+  {
+    "ID": "chal-889",
+    "Body": "They decided to hold the party in their backyard. If they have 5 sets of tables and each set has 10 chairs",
+    "Question": "How many more chairs than tables do they have?",
+    "Equation": "( ( 5.0 * 10.0 ) - 5.0 )",
+    "Answer": "45",
+    "Type": "Subtraction",
+    "question_concat": "They decided to hold the party in their backyard. If they have 5 sets of tables and each set has 10 chairs How many more chairs than tables do they have?"
+  },
+  {
+    "ID": "chal-284",
+    "Body": "Jerry had 9 action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If he also has 10 books on the shelf",
+    "Question": "How many more action figures than books were on his shelf?",
+    "Equation": "( ( 9.0 + 7.0 ) - 10.0 )",
+    "Answer": "6",
+    "Type": "Subtraction",
+    "question_concat": "Jerry had 9 action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If he also has 10 books on the shelf How many more action figures than books were on his shelf?"
+  },
+  {
+    "ID": "chal-450",
+    "Body": "Bobby ate 38 pieces of candy. Then he ate 36 more. He also ate 16 pieces of chocolate.",
+    "Question": "How many more pieces of candy than chocolate did Bobby eat?",
+    "Equation": "( ( 38.0 + 36.0 ) - 16.0 )",
+    "Answer": "58",
+    "Type": "Subtraction",
+    "question_concat": "Bobby ate 38 pieces of candy. Then he ate 36 more. He also ate 16 pieces of chocolate. How many more pieces of candy than chocolate did Bobby eat?"
+  },
+  {
+    "ID": "chal-40",
+    "Body": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books",
+    "Question": "How many more movies than books have you read?",
+    "Equation": "( 19.0 - 16.0 )",
+    "Answer": "3",
+    "Type": "Subtraction",
+    "question_concat": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books How many more movies than books have you read?"
+  },
+  {
+    "ID": "chal-878",
+    "Body": "Matthew had 31 crackers. He has 23 crackers left after he gave equal numbers of crackers to his 5 friends.",
+    "Question": "How many crackers did Matthew give to his friends?",
+    "Equation": "( 31.0 - 23.0 )",
+    "Answer": "8",
+    "Type": "Subtraction",
+    "question_concat": "Matthew had 31 crackers. He has 23 crackers left after he gave equal numbers of crackers to his 5 friends. How many crackers did Matthew give to his friends?"
+  },
+  {
+    "ID": "chal-671",
+    "Body": "Julia played tag with 7 kids on monday and 13 kids on tuesday. She played cards wtih 20 kids on wednesday.",
+    "Question": "How many kids did she play tag with altogether?",
+    "Equation": "( 7.0 + 13.0 )",
+    "Answer": "20",
+    "Type": "Addition",
+    "question_concat": "Julia played tag with 7 kids on monday and 13 kids on tuesday. She played cards wtih 20 kids on wednesday. How many kids did she play tag with altogether?"
+  },
+  {
+    "ID": "chal-494",
+    "Body": "Paul had 51 books and 106 pens. After selling some books and pens in a garage sale he had 82 books and 14 pens left.",
+    "Question": "How many pens did he sell in the garage sale?",
+    "Equation": "( 106.0 - 14.0 )",
+    "Answer": "92",
+    "Type": "Subtraction",
+    "question_concat": "Paul had 51 books and 106 pens. After selling some books and pens in a garage sale he had 82 books and 14 pens left. How many pens did he sell in the garage sale?"
+  },
+  {
+    "ID": "chal-193",
+    "Body": "They decided to hold the party in their backyard. They have 4 sets of tables and each set has 3 chairs. If a total of 14 people will attend the party",
+    "Question": "How many more chairs will they have to buy?",
+    "Equation": "( 14.0 - ( 4.0 * 3.0 ) )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "They decided to hold the party in their backyard. They have 4 sets of tables and each set has 3 chairs. If a total of 14 people will attend the party How many more chairs will they have to buy?"
+  },
+  {
+    "ID": "chal-107",
+    "Body": "During summer break 800059 kids from Lawrence county go to camp and the rest stay home. Lawrence county has 828521 kids in all.",
+    "Question": "About how many kids stayed home?",
+    "Equation": "( 828521.0 - 800059.0 )",
+    "Answer": "28462",
+    "Type": "Subtraction",
+    "question_concat": "During summer break 800059 kids from Lawrence county go to camp and the rest stay home. Lawrence county has 828521 kids in all. About how many kids stayed home?"
+  },
+  {
+    "ID": "chal-499",
+    "Body": "5 children were riding on the bus. At the bus stop 63 children got off the bus while some more got on the bus. Then there were 14 children altogether on the bus.",
+    "Question": "How many more children got on the bus than those that got off?",
+    "Equation": "( 14.0 - 5.0 )",
+    "Answer": "9",
+    "Type": "Subtraction",
+    "question_concat": "5 children were riding on the bus. At the bus stop 63 children got off the bus while some more got on the bus. Then there were 14 children altogether on the bus. How many more children got on the bus than those that got off?"
+  },
+  {
+    "ID": "chal-551",
+    "Body": "Robin has some packages of gum. There are 7 pieces in each package. Robin has 6 extra pieces of gum. In all the number of pieces of gums robin has is 41.",
+    "Question": "How many packages does Robin have?",
+    "Equation": "( ( 41.0 - 6.0 ) / 7.0 )",
+    "Answer": "5",
+    "Type": "Common-Division",
+    "question_concat": "Robin has some packages of gum. There are 7 pieces in each package. Robin has 6 extra pieces of gum. In all the number of pieces of gums robin has is 41. How many packages does Robin have?"
+  },
+  {
+    "ID": "chal-243",
+    "Body": "Randy has some blocks. He uses 52 blocks to build a tower. If there are 38 blocks left",
+    "Question": "How many blocks did he have at the start?",
+    "Equation": "( 52.0 + 38.0 )",
+    "Answer": "90",
+    "Type": "Addition",
+    "question_concat": "Randy has some blocks. He uses 52 blocks to build a tower. If there are 38 blocks left How many blocks did he have at the start?"
+  },
+  {
+    "ID": "chal-720",
+    "Body": "Baker made 52 pastries and 84 cakes. If he sold 102 cakes and 94 pastries",
+    "Question": "How many more cakes than pastries did baker make?",
+    "Equation": "( 84.0 - 52.0 )",
+    "Answer": "32",
+    "Type": "Subtraction",
+    "question_concat": "Baker made 52 pastries and 84 cakes. If he sold 102 cakes and 94 pastries How many more cakes than pastries did baker make?"
+  },
+  {
+    "ID": "chal-714",
+    "Body": "Randy has 97 blocks. He uses some blocks to build a tower. If there are 72 blocks left",
+    "Question": "How many blocks did he use to build the tower?",
+    "Equation": "( 97.0 - 72.0 )",
+    "Answer": "25",
+    "Type": "Subtraction",
+    "question_concat": "Randy has 97 blocks. He uses some blocks to build a tower. If there are 72 blocks left How many blocks did he use to build the tower?"
+  },
+  {
+    "ID": "chal-312",
+    "Body": "There were 100 dollars in Olivia's wallet. She collected 148 more dollars from an atm. After she visited a supermarket there were 159 dollars left.",
+    "Question": "How much did she spend?",
+    "Equation": "( ( 100.0 + 148.0 ) - 159.0 )",
+    "Answer": "89",
+    "Type": "Subtraction",
+    "question_concat": "There were 100 dollars in Olivia's wallet. She collected 148 more dollars from an atm. After she visited a supermarket there were 159 dollars left. How much did she spend?"
+  },
+  {
+    "ID": "chal-354",
+    "Body": "He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day.",
+    "Question": "How many oranges do they harvest per day if each sack contains 28 oranges?",
+    "Equation": "( 66.0 * 28.0 )",
+    "Answer": "1848",
+    "Type": "Multiplication",
+    "question_concat": "He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day. How many oranges do they harvest per day if each sack contains 28 oranges?"
+  },
+  {
+    "ID": "chal-695",
+    "Body": "He has 9 apples more than Adam and Jackie together do. Adam and Jackie have 7 apples between them.",
+    "Question": "How many apples does He have?",
+    "Equation": "( 7.0 + 9.0 )",
+    "Answer": "16",
+    "Type": "Addition",
+    "question_concat": "He has 9 apples more than Adam and Jackie together do. Adam and Jackie have 7 apples between them. How many apples does He have?"
+  },
+  {
+    "ID": "chal-43",
+    "Body": "Luke played 177 rounds of a trivia game. If he gained 46 points in each round",
+    "Question": "How many points did he score in the game?",
+    "Equation": "( 177.0 * 46.0 )",
+    "Answer": "8142",
+    "Type": "Multiplication",
+    "question_concat": "Luke played 177 rounds of a trivia game. If he gained 46 points in each round How many points did he score in the game?"
+  },
+  {
+    "ID": "chal-185",
+    "Body": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left.",
+    "Question": "How many more apps did he delete than he added?",
+    "Equation": "( 15.0 - 14.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?"
+  },
+  {
+    "ID": "chal-387",
+    "Body": "Emily is making bead necklaces for her 44 friends. She made 26 necklaces and each necklace takes 2 beads.",
+    "Question": "How many beads did Emily have?",
+    "Equation": "( 26.0 * 2.0 )",
+    "Answer": "52",
+    "Type": "Multiplication",
+    "question_concat": "Emily is making bead necklaces for her 44 friends. She made 26 necklaces and each necklace takes 2 beads. How many beads did Emily have?"
+  },
+  {
+    "ID": "chal-515",
+    "Body": "Tiffany was collecting cans for recycling. On monday she had 8 bags of cans. She found 10 bags of cans on the next day and 4 bags of cans the day after that.",
+    "Question": "How many bags did she find after monday?",
+    "Equation": "( 10.0 + 4.0 )",
+    "Answer": "14",
+    "Type": "Addition",
+    "question_concat": "Tiffany was collecting cans for recycling. On monday she had 8 bags of cans. She found 10 bags of cans on the next day and 4 bags of cans the day after that. How many bags did she find after monday?"
+  },
+  {
+    "ID": "chal-184",
+    "Body": "Brenda's mother made cookies for 14. If each of them had 30 cookies",
+    "Question": "How many cookies did she prepare?",
+    "Equation": "( 14.0 * 30.0 )",
+    "Answer": "420",
+    "Type": "Multiplication",
+    "question_concat": "Brenda's mother made cookies for 14. If each of them had 30 cookies How many cookies did she prepare?"
+  },
+  {
+    "ID": "chal-654",
+    "Body": "For Gwen's birthday she received some dollars. She spent 8 dollars and has 6 dollars left with her.",
+    "Question": "How much money did Gwen receive for her birthday?",
+    "Equation": "( 8.0 + 6.0 )",
+    "Answer": "14",
+    "Type": "Addition",
+    "question_concat": "For Gwen's birthday she received some dollars. She spent 8 dollars and has 6 dollars left with her. How much money did Gwen receive for her birthday?"
+  },
+  {
+    "ID": "chal-263",
+    "Body": "Randy has 90 blocks. He uses 89 blocks to build a house and 63 blocks to build a tower.",
+    "Question": "How many more blocks did he use to build the house than he did to build the tower?",
+    "Equation": "( 89.0 - 63.0 )",
+    "Answer": "26",
+    "Type": "Subtraction",
+    "question_concat": "Randy has 90 blocks. He uses 89 blocks to build a house and 63 blocks to build a tower. How many more blocks did he use to build the house than he did to build the tower?"
+  },
+  {
+    "ID": "chal-981",
+    "Body": "10 red peaches and some more green peaches are in the basket. If there are a total of 15 peaches in the basket",
+    "Question": "How many green peaches are in the basket?",
+    "Equation": "( 15.0 - 10.0 )",
+    "Answer": "5",
+    "Type": "Subtraction",
+    "question_concat": "10 red peaches and some more green peaches are in the basket. If there are a total of 15 peaches in the basket How many green peaches are in the basket?"
+  },
+  {
+    "ID": "chal-941",
+    "Body": "The Ferris wheel in paradise park has some seats. Each seat can hold 9 people. If 18 people can ride the wheel at the same time",
+    "Question": "How many seats does the Ferris wheel have?",
+    "Equation": "( 18.0 / 9.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "The Ferris wheel in paradise park has some seats. Each seat can hold 9 people. If 18 people can ride the wheel at the same time How many seats does the Ferris wheel have?"
+  },
+  {
+    "ID": "chal-704",
+    "Body": "Paul had 50 books. After buying some in a garage sale he had 151 left.",
+    "Question": "How many books did he buy?",
+    "Equation": "( 151.0 - 50.0 )",
+    "Answer": "101",
+    "Type": "Subtraction",
+    "question_concat": "Paul had 50 books. After buying some in a garage sale he had 151 left. How many books did he buy?"
+  },
+  {
+    "ID": "chal-15",
+    "Body": "6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them.",
+    "Question": "How many birds are sitting on the fence?",
+    "Equation": "( 6.0 + 4.0 )",
+    "Answer": "10",
+    "Type": "Addition",
+    "question_concat": "6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them. How many birds are sitting on the fence?"
+  },
+  {
+    "ID": "chal-892",
+    "Body": "7 red peaches, 71 yellow peaches and 8 green peaches are in the basket.",
+    "Question": "How many more green peaches than red peaches are in the basket?",
+    "Equation": "( 8.0 - 7.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "7 red peaches, 71 yellow peaches and 8 green peaches are in the basket. How many more green peaches than red peaches are in the basket?"
+  },
+  {
+    "ID": "chal-171",
+    "Body": "During summer break 644997 kids from Lawrence county stayed home and the other 893835 kids went to camp. An additional 78 kids from outside the county attended the camp.",
+    "Question": "How many kids are in Lawrence county?",
+    "Equation": "( 893835.0 + 644997.0 )",
+    "Answer": "1538832",
+    "Type": "Addition",
+    "question_concat": "During summer break 644997 kids from Lawrence county stayed home and the other 893835 kids went to camp. An additional 78 kids from outside the county attended the camp. How many kids are in Lawrence county?"
+  },
+  {
+    "ID": "chal-961",
+    "Body": "Katie had 84 new games and 19 old games. Her friends had 8 new games and 69 old games.",
+    "Question": "How many new games do they have together?",
+    "Equation": "( 84.0 + 8.0 )",
+    "Answer": "92",
+    "Type": "Addition",
+    "question_concat": "Katie had 84 new games and 19 old games. Her friends had 8 new games and 69 old games. How many new games do they have together?"
+  },
+  {
+    "ID": "chal-526",
+    "Body": "Brenda's mother made cookies for guests. If she prepared 38 cookies and each of them had 19 cookies",
+    "Question": "How many guests did she prepare cookies for?",
+    "Equation": "( 38.0 / 19.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "Brenda's mother made cookies for guests. If she prepared 38 cookies and each of them had 19 cookies How many guests did she prepare cookies for?"
+  },
+  {
+    "ID": "chal-590",
+    "Body": "Jack received 5 emails and 6 letters in the morning. He then received 9 emails and 7 letters in the afternoon.",
+    "Question": "How many letters did jack receive in the day?",
+    "Equation": "( 6.0 + 7.0 )",
+    "Answer": "13",
+    "Type": "Addition",
+    "question_concat": "Jack received 5 emails and 6 letters in the morning. He then received 9 emails and 7 letters in the afternoon. How many letters did jack receive in the day?"
+  },
+  {
+    "ID": "chal-789",
+    "Body": "Allan brought 5 balloons and Jake brought 3 balloons to the park.",
+    "Question": "How many more balloons did Allan have than Jake in the park?",
+    "Equation": "( 5.0 - 3.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "Allan brought 5 balloons and Jake brought 3 balloons to the park. How many more balloons did Allan have than Jake in the park?"
+  },
+  {
+    "ID": "chal-52",
+    "Body": "You have read 8 books from the ' crazy silly school ' series. If there are a total of 14 different books in the ' crazy silly school ' series",
+    "Question": "How many more do you still have to read?",
+    "Equation": "( 14.0 - 8.0 )",
+    "Answer": "6",
+    "Type": "Subtraction",
+    "question_concat": "You have read 8 books from the ' crazy silly school ' series. If there are a total of 14 different books in the ' crazy silly school ' series How many more do you still have to read?"
+  },
+  {
+    "ID": "chal-410",
+    "Body": "Nell collects baseball cards. She gave 301 of her cards to Jeff and now has 154 cards left..",
+    "Question": "How many cards did Nell have initially?",
+    "Equation": "( 154.0 + 301.0 )",
+    "Answer": "455",
+    "Type": "Addition",
+    "question_concat": "Nell collects baseball cards. She gave 301 of her cards to Jeff and now has 154 cards left.. How many cards did Nell have initially?"
+  },
+  {
+    "ID": "chal-896",
+    "Body": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12.",
+    "Question": "How much did each book cost?",
+    "Equation": "( 6.0 / 2.0 )",
+    "Answer": "3",
+    "Type": "Common-Division",
+    "question_concat": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?"
+  },
+  {
+    "ID": "chal-62",
+    "Body": "Emily is making bead necklaces for her 72 friends. She has 6 beads and each necklace takes 3 beads.",
+    "Question": "How many necklaces can Emily make?",
+    "Equation": "( 6.0 / 3.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "Emily is making bead necklaces for her 72 friends. She has 6 beads and each necklace takes 3 beads. How many necklaces can Emily make?"
+  },
+  {
+    "ID": "chal-509",
+    "Body": "Julia played tag with 5 kids on monday, 9 kids on tuesday and 15 kids on wednesday.",
+    "Question": "How many kids did she play with on monday and wednesday?",
+    "Equation": "( 5.0 + 15.0 )",
+    "Answer": "20",
+    "Type": "Addition",
+    "question_concat": "Julia played tag with 5 kids on monday, 9 kids on tuesday and 15 kids on wednesday. How many kids did she play with on monday and wednesday?"
+  },
+  {
+    "ID": "chal-540",
+    "Body": "He had 15 aquariums for saltwater animals and 62 aquariums for freshwater animals. Each aquarium has 19 animals in it.",
+    "Question": "How many animals does he have in total?",
+    "Equation": "( ( 15.0 + 62.0 ) * 19.0 )",
+    "Answer": "1463",
+    "Type": "Multiplication",
+    "question_concat": "He had 15 aquariums for saltwater animals and 62 aquariums for freshwater animals. Each aquarium has 19 animals in it. How many animals does he have in total?"
+  },
+  {
+    "ID": "chal-690",
+    "Body": "Randy has 58 blocks. He uses 27 blocks to build a tower and 53 blocks to build a house.",
+    "Question": "How many blocks did he use to build the tower and the house altogether?",
+    "Equation": "( 27.0 + 53.0 )",
+    "Answer": "80",
+    "Type": "Addition",
+    "question_concat": "Randy has 58 blocks. He uses 27 blocks to build a tower and 53 blocks to build a house. How many blocks did he use to build the tower and the house altogether?"
+  },
+  {
+    "ID": "chal-313",
+    "Body": "A waiter had 11 customers. After some left he still had 3 customers.",
+    "Question": "How many more customers left than those that stayed behind?",
+    "Equation": "( ( 11.0 - 3.0 ) - 3.0 )",
+    "Answer": "5",
+    "Type": "Subtraction",
+    "question_concat": "A waiter had 11 customers. After some left he still had 3 customers. How many more customers left than those that stayed behind?"
+  },
+  {
+    "ID": "chal-308",
+    "Body": "Debby bought 301 water bottles when they were on sale. If she drank 144 bottles a day for some days. If she has 157 bottles left",
+    "Question": "How many days did she drink for?",
+    "Equation": "( ( 301.0 - 157.0 ) / 144.0 )",
+    "Answer": "1",
+    "Type": "Common-Division",
+    "question_concat": "Debby bought 301 water bottles when they were on sale. If she drank 144 bottles a day for some days. If she has 157 bottles left How many days did she drink for?"
+  },
+  {
+    "ID": "chal-517",
+    "Body": "4 birds and 3 storks were sitting on the fence. 6 more storks came to join them.",
+    "Question": "How many more storks than birds are sitting on the fence?",
+    "Equation": "( ( 3.0 + 6.0 ) - 4.0 )",
+    "Answer": "5",
+    "Type": "Subtraction",
+    "question_concat": "4 birds and 3 storks were sitting on the fence. 6 more storks came to join them. How many more storks than birds are sitting on the fence?"
+  },
+  {
+    "ID": "chal-576",
+    "Body": "Faye was placing 12 pencils equally into 3 rows.",
+    "Question": "How many pencils did she place in each row?",
+    "Equation": "( 12.0 / 3.0 )",
+    "Answer": "4",
+    "Type": "Common-Division",
+    "question_concat": "Faye was placing 12 pencils equally into 3 rows. How many pencils did she place in each row?"
+  },
+  {
+    "ID": "chal-962",
+    "Body": "Being his favorite, he saved checking on the grapevines after 57 stops. He was told by 252 of the pickers that they fill 108 drums of grapes per day.",
+    "Question": "How many drums of grapes would be filled in 58 days?",
+    "Equation": "( 108.0 * 58.0 )",
+    "Answer": "6264",
+    "Type": "Multiplication",
+    "question_concat": "Being his favorite, he saved checking on the grapevines after 57 stops. He was told by 252 of the pickers that they fill 108 drums of grapes per day. How many drums of grapes would be filled in 58 days?"
+  },
+  {
+    "ID": "chal-139",
+    "Body": "Matthew gave equal numbers of crackers and cakes to his 4 friends. If he had 10 crackers and 8 cakes initially",
+    "Question": "How many cakes did each person eat?",
+    "Equation": "( 8.0 / 4.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "Matthew gave equal numbers of crackers and cakes to his 4 friends. If he had 10 crackers and 8 cakes initially How many cakes did each person eat?"
+  },
+  {
+    "ID": "chal-255",
+    "Body": "In a school there are 700 girls and the rest are boys. If there are 142 more boys than girls",
+    "Question": "How many pupils are there in that school?",
+    "Equation": "( ( 700.0 + 700.0 ) + 142.0 )",
+    "Answer": "1542",
+    "Type": "Addition",
+    "question_concat": "In a school there are 700 girls and the rest are boys. If there are 142 more boys than girls How many pupils are there in that school?"
+  },
+  {
+    "ID": "chal-202",
+    "Body": "During the Arkansas and Texas tech game the Razorback t-shirt shop made $ 60 by selling t-shirts. If they make $ 10 dollars off each t-shirt sold",
+    "Question": "How many t-shirts did they sell?",
+    "Equation": "( 60.0 / 10.0 )",
+    "Answer": "6",
+    "Type": "Common-Division",
+    "question_concat": "During the Arkansas and Texas tech game the Razorback t-shirt shop made $ 60 by selling t-shirts. If they make $ 10 dollars off each t-shirt sold How many t-shirts did they sell?"
+  },
+  {
+    "ID": "chal-837",
+    "Body": "Because of the decision Sofia asked 288 students to suggest specific types of food. 264 students suggested adding bacon while others suggested adding mashed potatoes to the menu.",
+    "Question": "How many students suggested mashed potatoes?",
+    "Equation": "( 288.0 - 264.0 )",
+    "Answer": "24",
+    "Type": "Subtraction",
+    "question_concat": "Because of the decision Sofia asked 288 students to suggest specific types of food. 264 students suggested adding bacon while others suggested adding mashed potatoes to the menu. How many students suggested mashed potatoes?"
+  },
+  {
+    "ID": "chal-830",
+    "Body": "17 red peaches and 16 green peaches are in the basket.",
+    "Question": "How many more red peaches than green peaches are in the basket?",
+    "Equation": "( 17.0 - 16.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "17 red peaches and 16 green peaches are in the basket. How many more red peaches than green peaches are in the basket?"
+  },
+  {
+    "ID": "chal-582",
+    "Body": "Every day Ryan spends 5 hours on learning chinese and some more hours on learning english. If he spends 2 hours more on learning english than on learning chinese",
+    "Question": "How many hours does he spend on learning english?",
+    "Equation": "( 5.0 + 2.0 )",
+    "Answer": "7",
+    "Type": "Addition",
+    "question_concat": "Every day Ryan spends 5 hours on learning chinese and some more hours on learning english. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning english?"
+  },
+  {
+    "ID": "chal-538",
+    "Body": "Steven has 19 peaches. Jake has 12 fewer peaches than Steven and 72 more peaches than Jill.",
+    "Question": "How many peaches does Jake have?",
+    "Equation": "( 19.0 - 12.0 )",
+    "Answer": "7",
+    "Type": "Subtraction",
+    "question_concat": "Steven has 19 peaches. Jake has 12 fewer peaches than Steven and 72 more peaches than Jill. How many peaches does Jake have?"
+  },
+  {
+    "ID": "chal-631",
+    "Body": "Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies.",
+    "Question": "How many more salty cookies than sweet cookies did he eat?",
+    "Equation": "( 34.0 - 20.0 )",
+    "Answer": "14",
+    "Type": "Subtraction",
+    "question_concat": "Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies. How many more salty cookies than sweet cookies did he eat?"
+  },
+  {
+    "ID": "chal-2",
+    "Body": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start",
+    "Question": "How much did the candy bar cost?",
+    "Equation": "( 4.0 - 3.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?"
+  },
+  {
+    "ID": "chal-10",
+    "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+    "Question": "How many customers did he have at the start?",
+    "Equation": "( 9.0 + 12.0 )",
+    "Answer": "21",
+    "Type": "Addition",
+    "question_concat": "A waiter had some customers. After 9 customers left he still had 12 customers. How many customers did he have at the start?"
+  },
+  {
+    "ID": "chal-325",
+    "Body": "Edward spent $ 6 to buy books and $ 16 to buy pens. Now he has $ 19.",
+    "Question": "How much did Edward have before he spent his money?",
+    "Equation": "( ( 6.0 + 16.0 ) + 19.0 )",
+    "Answer": "41",
+    "Type": "Addition",
+    "question_concat": "Edward spent $ 6 to buy books and $ 16 to buy pens. Now he has $ 19. How much did Edward have before he spent his money?"
+  },
+  {
+    "ID": "chal-467",
+    "Body": "The ring toss game at the carnival made 382 dollars in the first 44 days and 374 dollars in the remaining 10 days.",
+    "Question": "How much did they make in all?",
+    "Equation": "( 382.0 + 374.0 )",
+    "Answer": "756",
+    "Type": "Addition",
+    "question_concat": "The ring toss game at the carnival made 382 dollars in the first 44 days and 374 dollars in the remaining 10 days. How much did they make in all?"
+  },
+  {
+    "ID": "chal-241",
+    "Body": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 519 chocolate chip cookies and 300 raisin cookies yesterday. And she baked 280 raisin cookies and 359 chocolate chip cookies this morning.",
+    "Question": "How many more raisin cookies did Helen bake yesterday compared to today?",
+    "Equation": "( 300.0 - 280.0 )",
+    "Answer": "20",
+    "Type": "Subtraction",
+    "question_concat": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 519 chocolate chip cookies and 300 raisin cookies yesterday. And she baked 280 raisin cookies and 359 chocolate chip cookies this morning. How many more raisin cookies did Helen bake yesterday compared to today?"
+  },
+  {
+    "ID": "chal-39",
+    "Body": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups",
+    "Question": "How big is each group of oranges?",
+    "Equation": "( 356.0 / 178.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups How big is each group of oranges?"
+  },
+  {
+    "ID": "chal-482",
+    "Body": "After resting they decided to go for a swim. The depth of the water is 5 times Ron's height. Dean is 11 feet shorter than Ron. If Ron stands at 12 feet",
+    "Question": "How deep was the water?",
+    "Equation": "( 12.0 * 5.0 )",
+    "Answer": "60",
+    "Type": "Multiplication",
+    "question_concat": "After resting they decided to go for a swim. The depth of the water is 5 times Ron's height. Dean is 11 feet shorter than Ron. If Ron stands at 12 feet How deep was the water?"
+  },
+  {
+    "ID": "chal-989",
+    "Body": "Melissa scored 109 points in each game. She also got 82 bonus points in each game.",
+    "Question": "How many points did she score in 79 games?",
+    "Equation": "( ( 109.0 + 82.0 ) * 79.0 )",
+    "Answer": "15089",
+    "Type": "Multiplication",
+    "question_concat": "Melissa scored 109 points in each game. She also got 82 bonus points in each game. How many points did she score in 79 games?"
+  },
+  {
+    "ID": "chal-214",
+    "Body": "There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase.",
+    "Question": "How many orchids did she cut?",
+    "Equation": "( 21.0 - 2.0 )",
+    "Answer": "19",
+    "Type": "Subtraction",
+    "question_concat": "There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase. How many orchids did she cut?"
+  },
+  {
+    "ID": "chal-303",
+    "Body": "Jake has 13 more apples and 17 fewer peaches than Steven. Steven has 8 peaches and 12 apples.",
+    "Question": "How many apples does Jake have?",
+    "Equation": "( 13.0 + 12.0 )",
+    "Answer": "25",
+    "Type": "Addition",
+    "question_concat": "Jake has 13 more apples and 17 fewer peaches than Steven. Steven has 8 peaches and 12 apples. How many apples does Jake have?"
+  },
+  {
+    "ID": "chal-689",
+    "Body": "The school is planning a field trip. The school has 21 classrooms. There are 98 students in the school and 7 school buses. If all buses are full",
+    "Question": "How many seats are in each bus?",
+    "Equation": "( 98.0 / 7.0 )",
+    "Answer": "14",
+    "Type": "Common-Division",
+    "question_concat": "The school is planning a field trip. The school has 21 classrooms. There are 98 students in the school and 7 school buses. If all buses are full How many seats are in each bus?"
+  },
+  {
+    "ID": "chal-980",
+    "Body": "Baker made 81 cakes. Then he made 92 more cakes. He sold 46 of them.",
+    "Question": "How many more cakes did baker make than those he sold?",
+    "Equation": "( ( 81.0 + 92.0 ) - 46.0 )",
+    "Answer": "127",
+    "Type": "Subtraction",
+    "question_concat": "Baker made 81 cakes. Then he made 92 more cakes. He sold 46 of them. How many more cakes did baker make than those he sold?"
+  },
+  {
+    "ID": "chal-970",
+    "Body": "Jesse needs a carpet of size 10 square feet to cover her room. If her room is 5 feet long",
+    "Question": "What is the width of her room?",
+    "Equation": "( 10.0 / 5.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "Jesse needs a carpet of size 10 square feet to cover her room. If her room is 5 feet long What is the width of her room?"
+  },
+  {
+    "ID": "chal-322",
+    "Body": "Baker made 99 cakes. He bought 167 new cakes and sold 89 cakes.",
+    "Question": "How many more cakes did baker buy than those he sold?",
+    "Equation": "( 167.0 - 89.0 )",
+    "Answer": "78",
+    "Type": "Subtraction",
+    "question_concat": "Baker made 99 cakes. He bought 167 new cakes and sold 89 cakes. How many more cakes did baker buy than those he sold?"
+  },
+  {
+    "ID": "chal-141",
+    "Body": "23 children were riding on the bus. At the bus stop 24 children got on the bus while some got off the bus. Then there were 8 children altogether on the bus.",
+    "Question": "How many more children got off the bus than those that got on?",
+    "Equation": "( 23.0 - 8.0 )",
+    "Answer": "15",
+    "Type": "Subtraction",
+    "question_concat": "23 children were riding on the bus. At the bus stop 24 children got on the bus while some got off the bus. Then there were 8 children altogether on the bus. How many more children got off the bus than those that got on?"
+  },
+  {
+    "ID": "chal-880",
+    "Body": "Marco and his dad went strawberry picking. Marco's strawberries weighed 10 pounds. If together their strawberries weighed 26 pounds.",
+    "Question": "How much more did his dad's strawberries weigh than his?",
+    "Equation": "( ( 26.0 - 10.0 ) - 10.0 )",
+    "Answer": "6",
+    "Type": "Subtraction",
+    "question_concat": "Marco and his dad went strawberry picking. Marco's strawberries weighed 10 pounds. If together their strawberries weighed 26 pounds. How much more did his dad's strawberries weigh than his?"
+  },
+  {
+    "ID": "chal-473",
+    "Body": "Rebecca wants to split a collection of eggs into groups of 5. Rebecca has 10 marbles and 15 eggs.",
+    "Question": "How many groups will be created?",
+    "Equation": "( 15.0 / 5.0 )",
+    "Answer": "3",
+    "Type": "Common-Division",
+    "question_concat": "Rebecca wants to split a collection of eggs into groups of 5. Rebecca has 10 marbles and 15 eggs. How many groups will be created?"
+  },
+  {
+    "ID": "chal-114",
+    "Body": "Jack received 10 emails in the morning, 5 emails in the afternoon and 4 emails in the evening.",
+    "Question": "How many more emails did Jack receive in the afternoon than in the evening?",
+    "Equation": "( 5.0 - 4.0 )",
+    "Answer": "1",
+    "Type": "Subtraction",
+    "question_concat": "Jack received 10 emails in the morning, 5 emails in the afternoon and 4 emails in the evening. How many more emails did Jack receive in the afternoon than in the evening?"
+  },
+  {
+    "ID": "chal-242",
+    "Body": "A grocery store had 81 bottles of regular soda, 60 bottles of diet soda and 60 bottles of lite soda.",
+    "Question": "How many more bottles of regular soda did they have than diet soda?",
+    "Equation": "( 81.0 - 60.0 )",
+    "Answer": "21",
+    "Type": "Subtraction",
+    "question_concat": "A grocery store had 81 bottles of regular soda, 60 bottles of diet soda and 60 bottles of lite soda. How many more bottles of regular soda did they have than diet soda?"
+  },
+  {
+    "ID": "chal-350",
+    "Body": "3 red peaches, and some more green peaches are in the basket. If there are 10 more green peaches than red peaches in the basket",
+    "Question": "How many green peaches are in the basket?",
+    "Equation": "( 3.0 + 10.0 )",
+    "Answer": "13",
+    "Type": "Addition",
+    "question_concat": "3 red peaches, and some more green peaches are in the basket. If there are 10 more green peaches than red peaches in the basket How many green peaches are in the basket?"
+  },
+  {
+    "ID": "chal-427",
+    "Body": "Matthew had 29 crackers and 30 cakes. If Matthew gave equal numbers of crackers and cakes to his 2 friends",
+    "Question": "How many cakes did each person eat?",
+    "Equation": "( 30.0 / 2.0 )",
+    "Answer": "15",
+    "Type": "Common-Division",
+    "question_concat": "Matthew had 29 crackers and 30 cakes. If Matthew gave equal numbers of crackers and cakes to his 2 friends How many cakes did each person eat?"
+  },
+  {
+    "ID": "chal-233",
+    "Body": "Edward spent $ 16 to buy books and $ 8 to buy pens. Now he has $ 19.",
+    "Question": "How much more did Edward spend on books than pens?",
+    "Equation": "( 16.0 - 8.0 )",
+    "Answer": "8",
+    "Type": "Subtraction",
+    "question_concat": "Edward spent $ 16 to buy books and $ 8 to buy pens. Now he has $ 19. How much more did Edward spend on books than pens?"
+  },
+  {
+    "ID": "chal-802",
+    "Body": "Julia played tag with 14 kids on tuesday. If she played tag with 8 more kids on monday than on tuesday",
+    "Question": "How many kids did she play with on monday?",
+    "Equation": "( 14.0 + 8.0 )",
+    "Answer": "22",
+    "Type": "Addition",
+    "question_concat": "Julia played tag with 14 kids on tuesday. If she played tag with 8 more kids on monday than on tuesday How many kids did she play with on monday?"
+  },
+  {
+    "ID": "chal-86",
+    "Body": "Randy has 95 blocks. He uses 20 blocks to build a house and 50 blocks to build a tower.",
+    "Question": "How many more blocks did he use to build the tower than he did to build the house?",
+    "Equation": "( 50.0 - 20.0 )",
+    "Answer": "30",
+    "Type": "Subtraction",
+    "question_concat": "Randy has 95 blocks. He uses 20 blocks to build a house and 50 blocks to build a tower. How many more blocks did he use to build the tower than he did to build the house?"
+  },
+  {
+    "ID": "chal-283",
+    "Body": "13 campers went rowing and 59 campers went hiking in the morning. 21 campers went rowing in the afternoon.",
+    "Question": "How many campers went rowing in all?",
+    "Equation": "( 13.0 + 21.0 )",
+    "Answer": "34",
+    "Type": "Addition",
+    "question_concat": "13 campers went rowing and 59 campers went hiking in the morning. 21 campers went rowing in the afternoon. How many campers went rowing in all?"
+  },
+  {
+    "ID": "chal-441",
+    "Body": "Katie had 91 ds games and her new friends had 88 games and old friends had 53 games.",
+    "Question": "How many games do her friends have in all?",
+    "Equation": "( 88.0 + 53.0 )",
+    "Answer": "141",
+    "Type": "Addition",
+    "question_concat": "Katie had 91 ds games and her new friends had 88 games and old friends had 53 games. How many games do her friends have in all?"
+  },
+  {
+    "ID": "chal-535",
+    "Body": "Nell collects baseball cards. She had 573 cards. She gave 195 cards to John and yet some more to Jeff. Now she has 210 cards left.",
+    "Question": "How many cards did Nell give to Jeff?",
+    "Equation": "( ( 573.0 - 195.0 ) - 210.0 )",
+    "Answer": "168",
+    "Type": "Subtraction",
+    "question_concat": "Nell collects baseball cards. She had 573 cards. She gave 195 cards to John and yet some more to Jeff. Now she has 210 cards left. How many cards did Nell give to Jeff?"
+  },
+  {
+    "ID": "chal-505",
+    "Body": "Bobby had 20 pieces of candy. He ate 34 pieces of candy. Then he ate 18 more.",
+    "Question": "How many pieces of candy did Bobby eat?",
+    "Equation": "( 34.0 + 18.0 )",
+    "Answer": "52",
+    "Type": "Addition",
+    "question_concat": "Bobby had 20 pieces of candy. He ate 34 pieces of candy. Then he ate 18 more. How many pieces of candy did Bobby eat?"
+  },
+  {
+    "ID": "chal-823",
+    "Body": "If you have 14 cookies in total and 7 bags having equal number of cookies",
+    "Question": "How many cookies does each bag have?",
+    "Equation": "( 14.0 / 7.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "If you have 14 cookies in total and 7 bags having equal number of cookies How many cookies does each bag have?"
+  },
+  {
+    "ID": "chal-140",
+    "Body": "Jessica cut some roses from her flower garden to put in her vase. There are now 19 roses in the vase. If there were 3 roses in the vase initially",
+    "Question": "How many roses did she cut?",
+    "Equation": "( 19.0 - 3.0 )",
+    "Answer": "16",
+    "Type": "Subtraction",
+    "question_concat": "Jessica cut some roses from her flower garden to put in her vase. There are now 19 roses in the vase. If there were 3 roses in the vase initially How many roses did she cut?"
+  },
+  {
+    "ID": "chal-397",
+    "Body": "For the walls of the house John would use large planks of wood. Each plank needs 2 pieces of nails to be secured and he would use 16 planks.",
+    "Question": "How many nails does John need for the house wall?",
+    "Equation": "( 16.0 * 2.0 )",
+    "Answer": "32",
+    "Type": "Multiplication",
+    "question_concat": "For the walls of the house John would use large planks of wood. Each plank needs 2 pieces of nails to be secured and he would use 16 planks. How many nails does John need for the house wall?"
+  },
+  {
+    "ID": "chal-997",
+    "Body": "At the zoo, a cage had 3 snakes and 75 alligators. If 82 snakes and 19 alligators were hiding",
+    "Question": "How many alligators were not hiding?",
+    "Equation": "( 75.0 - 19.0 )",
+    "Answer": "56",
+    "Type": "Subtraction",
+    "question_concat": "At the zoo, a cage had 3 snakes and 75 alligators. If 82 snakes and 19 alligators were hiding How many alligators were not hiding?"
+  },
+  {
+    "ID": "chal-238",
+    "Body": "Rachel picked 2 ripe apples from her tree. Now the tree has 7 apples still on it. If 6 of those are ripe and the rest are unripe",
+    "Question": "How many ripe apples did the tree have to begin with?",
+    "Equation": "( 2.0 + 6.0 )",
+    "Answer": "8",
+    "Type": "Addition",
+    "question_concat": "Rachel picked 2 ripe apples from her tree. Now the tree has 7 apples still on it. If 6 of those are ripe and the rest are unripe How many ripe apples did the tree have to begin with?"
+  },
+  {
+    "ID": "chal-776",
+    "Body": "He then went to see the oranges being harvested. He found out that they harvest 67 sacks per day and that each sack containes 12 oranges.",
+    "Question": "How many oranges are harvested if they harvest a total of 35 sacks of oranges?",
+    "Equation": "( 12.0 * 35.0 )",
+    "Answer": "420",
+    "Type": "Multiplication",
+    "question_concat": "He then went to see the oranges being harvested. He found out that they harvest 67 sacks per day and that each sack containes 12 oranges. How many oranges are harvested if they harvest a total of 35 sacks of oranges?"
+  },
+  {
+    "ID": "chal-56",
+    "Body": "A farmer had 90 tomatoes in his garden. If he picked 154 of them yesterday and 50 today.",
+    "Question": "How many tomatoes did he pick in all?",
+    "Equation": "( 154.0 + 50.0 )",
+    "Answer": "204",
+    "Type": "Addition",
+    "question_concat": "A farmer had 90 tomatoes in his garden. If he picked 154 of them yesterday and 50 today. How many tomatoes did he pick in all?"
+  },
+  {
+    "ID": "chal-407",
+    "Body": "Julia played tag with 18 kids on monday. She played tag with 10 kids on tuesday.",
+    "Question": "How many more kids did she play with on monday than on tuesday?",
+    "Equation": "( 18.0 - 10.0 )",
+    "Answer": "8",
+    "Type": "Subtraction",
+    "question_concat": "Julia played tag with 18 kids on monday. She played tag with 10 kids on tuesday. How many more kids did she play with on monday than on tuesday?"
+  },
+  {
+    "ID": "chal-910",
+    "Body": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 36 inches. The frog jumped 17 inches farther than the grasshopper and the mouse jumped 15 inches farther than the frog.",
+    "Question": "How far did the frog jump?",
+    "Equation": "( 36.0 + 17.0 )",
+    "Answer": "53",
+    "Type": "Addition",
+    "question_concat": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 36 inches. The frog jumped 17 inches farther than the grasshopper and the mouse jumped 15 inches farther than the frog. How far did the frog jump?"
+  },
+  {
+    "ID": "chal-83",
+    "Body": "Tiffany was collecting cans for recycling. On monday she had 4 bags of cans. The next day she found some more bags worth of cans. If she had a total of 6 bags altogether",
+    "Question": "How many bags did she find on the next day?",
+    "Equation": "( 6.0 - 4.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "Tiffany was collecting cans for recycling. On monday she had 4 bags of cans. The next day she found some more bags worth of cans. If she had a total of 6 bags altogether How many bags did she find on the next day?"
+  },
+  {
+    "ID": "chal-930",
+    "Body": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 512 visitors came to the Buckingham palace that day. If there were 471 visitors the previous day and 808 visitors the day before that",
+    "Question": "How many visited the Buckingham palace within the past 89 days?",
+    "Equation": "( ( 512.0 + 471.0 ) + 808.0 )",
+    "Answer": "1791",
+    "Type": "Addition",
+    "question_concat": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 512 visitors came to the Buckingham palace that day. If there were 471 visitors the previous day and 808 visitors the day before that How many visited the Buckingham palace within the past 89 days?"
+  },
+  {
+    "ID": "chal-806",
+    "Body": "For Gwen's birthday she received 7 dollars. She spent some money and has 5 dollars left with her.",
+    "Question": "How much money did she spend?",
+    "Equation": "( 7.0 - 5.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "For Gwen's birthday she received 7 dollars. She spent some money and has 5 dollars left with her. How much money did she spend?"
+  },
+  {
+    "ID": "chal-265",
+    "Body": "Every day Ryan spends 7 hours on learning english, 2 hours on learning chinese and 4 hours on learning spanish.",
+    "Question": "How many more hours does he spend on learning english than he does on learning spanish?",
+    "Equation": "( 7.0 - 4.0 )",
+    "Answer": "3",
+    "Type": "Subtraction",
+    "question_concat": "Every day Ryan spends 7 hours on learning english, 2 hours on learning chinese and 4 hours on learning spanish. How many more hours does he spend on learning english than he does on learning spanish?"
+  },
+  {
+    "ID": "chal-288",
+    "Body": "Jack received 9 emails in the morning, 10 emails in the afternoon and 7 emails in the evening.",
+    "Question": "How many more emails did Jack receive in the morning than in the evening?",
+    "Equation": "( 9.0 - 7.0 )",
+    "Answer": "2",
+    "Type": "Subtraction",
+    "question_concat": "Jack received 9 emails in the morning, 10 emails in the afternoon and 7 emails in the evening. How many more emails did Jack receive in the morning than in the evening?"
+  },
+  {
+    "ID": "chal-63",
+    "Body": "He also had 26 aquariums for saltwater animals. The aquarium had 52 saltwater animals in total and every aquarium had the same number of animals.",
+    "Question": "How many saltwater animals does each aquarium have?",
+    "Equation": "( 52.0 / 26.0 )",
+    "Answer": "2",
+    "Type": "Common-Division",
+    "question_concat": "He also had 26 aquariums for saltwater animals. The aquarium had 52 saltwater animals in total and every aquarium had the same number of animals. How many saltwater animals does each aquarium have?"
+  },
+  {
+    "ID": "chal-667",
+    "Body": "Jerry had 4 action figures and 22 books on a shelf in his room. Later he added 6 more action figures to the shelf.",
+    "Question": "How many action figures were on his shelf in all?",
+    "Equation": "( 4.0 + 6.0 )",
+    "Answer": "10",
+    "Type": "Addition",
+    "question_concat": "Jerry had 4 action figures and 22 books on a shelf in his room. Later he added 6 more action figures to the shelf. How many action figures were on his shelf in all?"
+  },
+  {
+    "ID": "chal-807",
+    "Body": "18 red peaches, 14 yellow peaches and 17 green peaches are in the basket.",
+    "Question": "How many red and yellow peaches are in the basket?",
+    "Equation": "( 18.0 + 14.0 )",
+    "Answer": "32",
+    "Type": "Addition",
+    "question_concat": "18 red peaches, 14 yellow peaches and 17 green peaches are in the basket. How many red and yellow peaches are in the basket?"
+  },
+  {
+    "ID": "chal-228",
+    "Body": "Matthew had 14 crackers and 21 cakes. If Matthew gave equal numbers of crackers and cakes to his 7 friends",
+    "Question": "How many crackers and cakes did each person eat?",
+    "Equation": "( ( 14.0 + 21.0 ) / 7.0 )",
+    "Answer": "5",
+    "Type": "Common-Division",
+    "question_concat": "Matthew had 14 crackers and 21 cakes. If Matthew gave equal numbers of crackers and cakes to his 7 friends How many crackers and cakes did each person eat?"
+  },
+  {
+    "ID": "chal-623",
+    "Body": "During summer break 610769 kids from Lawrence county go to camp and the other 590796 kids stay home. An additional 22 kids from outside the county attended the camp.",
+    "Question": "About how many kids are in Lawrence county?",
+    "Equation": "( 610769.0 + 590796.0 )",
+    "Answer": "1201565",
+    "Type": "Addition",
+    "question_concat": "During summer break 610769 kids from Lawrence county go to camp and the other 590796 kids stay home. An additional 22 kids from outside the county attended the camp. About how many kids are in Lawrence county?"
+  },
+  {
+    "ID": "chal-841",
+    "Body": "Dan has $ 4. He bought a chocolate for $ 7 and a candy bar for $ 2.",
+    "Question": "How much money did he spend to buy chocolate than he did to buy candy bar?",
+    "Equation": "( 7.0 - 2.0 )",
+    "Answer": "5",
+    "Type": "Subtraction",
+    "question_concat": "Dan has $ 4. He bought a chocolate for $ 7 and a candy bar for $ 2. How much money did he spend to buy chocolate than he did to buy candy bar?"
+  },
+  {
+    "ID": "chal-207",
+    "Body": "Rachel had to complete 8 pages of math homework, 7 pages of reading homework and 3 more pages of biology homework.",
+    "Question": "How many pages of math and biology homework did she have to complete?",
+    "Equation": "( 8.0 + 3.0 )",
+    "Answer": "11",
+    "Type": "Addition",
+    "question_concat": "Rachel had to complete 8 pages of math homework, 7 pages of reading homework and 3 more pages of biology homework. How many pages of math and biology homework did she have to complete?"
+  },
+  {
+    "ID": "chal-684",
+    "Body": "Robin's hair was 17 inches long. He cut off some inches of her hair. If his hair is now 13 inches long",
+    "Question": "How much of his hair did he cut?",
+    "Equation": "( 17.0 - 13.0 )",
+    "Answer": "4",
+    "Type": "Subtraction",
+    "question_concat": "Robin's hair was 17 inches long. He cut off some inches of her hair. If his hair is now 13 inches long How much of his hair did he cut?"
+  },
+  {
+    "ID": "chal-808",
+    "Body": "Matthew gave equal numbers of crackers and cakes to his 4 friends. If he had 32 crackers and 98 cakes initially",
+    "Question": "How many crackers did each person eat?",
+    "Equation": "( 32.0 / 4.0 )",
+    "Answer": "8",
+    "Type": "Common-Division",
+    "question_concat": "Matthew gave equal numbers of crackers and cakes to his 4 friends. If he had 32 crackers and 98 cakes initially How many crackers did each person eat?"
+  }
+]

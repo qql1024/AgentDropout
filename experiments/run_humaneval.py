@@ -42,7 +42,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description="AgentPrune Experiments on HumanEval")
     parser.add_argument("--dataset_json", type=str, default="datasets/humaneval/humaneval-py.jsonl")
     parser.add_argument("--result_file", type=str, default=None)
-    parser.add_argument("--llm_name", type=str, default="gpt-4-1106-preview")
+    # parser.add_argument("--llm_name", type=str, default="gpt-4-1106-preview")
+    parser.add_argument("--config_path", type=str, default="")
     parser.add_argument('--mode', type=str, default='FullConnected',
                         choices=['DirectAnswer', 'FullConnected', 'Random', 'Chain','Debate','Layered','Star'],
                         help="Mode of operation. Default is 'FullConnected'.")
@@ -82,13 +83,18 @@ async def main():
     Time.instance().value = current_time
     result_dir = Path(f"{AgentPrune_ROOT}/result/eval")
     result_dir.mkdir(parents=True, exist_ok=True)
-    result_file = result_dir / f"{args.llm_name}_{current_time}.json"
+    # result_file = result_dir / f"{args.llm_name}_{current_time}.json"
     
     agent_names = [name for name,num in zip(args.agent_names,args.agent_nums) for _ in range(num)]
     decision_method = args.decision_method
     kwargs = get_kwargs(args.mode,len(agent_names))
+
+    with open(args.config_path, "r") as f:
+        config = json.load(f)
+        llm_list = list(config["model_list"].keys())
+
     graph = Graph(domain="humaneval",
-                  llm_name=args.llm_name,
+                llm_list=llm_list,
                   agent_names=agent_names,
                   decision_method=decision_method,
                   optimized_spatial=args.optimized_spatial,
@@ -158,7 +164,7 @@ async def main():
             raw_answers, log_probs = zip(*raw_results)
             loss_list: List[torch.Tensor] = []
             utilities: List[float] = []
-            data = load_result(result_file)
+            # data = load_result(result_file)
                 
             for task, answer, log_prob, add_loss, test in zip(current_batch, raw_answers, log_probs, add_losses, tests):
                 if not isinstance(answer,list):
@@ -182,9 +188,9 @@ async def main():
                     "Total executed": total_executed,
                     "Accuracy": accuracy
                 }
-                data.append(updated_item)
-            with open(result_file, 'w',encoding='utf-8') as file:
-                json.dump(data, file, indent=4)
+                # data.append(updated_item)
+            # with open(result_file, 'w',encoding='utf-8') as file:
+            #     json.dump(data, file, indent=4)
             
             total_loss = torch.mean(torch.stack(loss_list))
             optimizer.zero_grad()
@@ -287,7 +293,7 @@ async def main():
             raw_answers, log_probs = zip(*raw_results)
             loss_list: List[torch.Tensor] = []
             utilities: List[float] = []
-            data = load_result(result_file)
+            # data = load_result(result_file)
                 
             for task, answer, log_prob, add_loss, test in zip(current_batch, raw_answers, log_probs, add_losses, tests):
                 if not isinstance(answer,list):
@@ -311,9 +317,9 @@ async def main():
                     "Total executed": total_executed,
                     "Accuracy": accuracy
                 }
-                data.append(updated_item)
-            with open(result_file, 'w',encoding='utf-8') as file:
-                json.dump(data, file, indent=4)
+                # data.append(updated_item)
+            # with open(result_file, 'w',encoding='utf-8') as file:
+            #     json.dump(data, file, indent=4)
             
             total_loss = torch.mean(torch.stack(loss_list))
             optimizer.zero_grad()
@@ -412,7 +418,7 @@ async def main():
         raw_answers, log_probs = zip(*raw_results)
         loss_list: List[torch.Tensor] = []
         utilities: List[float] = []
-        data = load_result(result_file)
+        # data = load_result(result_file)
                
         for task, answer, log_prob, add_loss, test in zip(current_batch, raw_answers, log_probs, add_losses, tests):
             if not isinstance(answer,list):
@@ -436,9 +442,9 @@ async def main():
                 "Total executed": total_executed,
                 "Accuracy": accuracy
             }
-            data.append(updated_item)
-        with open(result_file, 'w',encoding='utf-8') as file:
-            json.dump(data, file, indent=4)
+            # data.append(updated_item)
+        # with open(result_file, 'w',encoding='utf-8') as file:
+        #     json.dump(data, file, indent=4)
         
         total_loss = torch.mean(torch.stack(loss_list))
         if not graph.diff:

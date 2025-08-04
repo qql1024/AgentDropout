@@ -39,17 +39,18 @@ source .env
 set +a
 echo "LLM_NAME: '$LLM_NAME'"
 
+config_path="./configs/X-MAS_Bench_config.json"
 
 # Line 38 (or the relevant line):
 python experiments/run_aqua.py \
   --agent_nums 5 \
+  --config_path $config_path \
   --mode FullConnected \
   --batch_size 40 \
   --num_iterations 2 \
   --imp_per_iterations 1 \
   --pruning_rate 0.10 \
   --num_rounds 2 \
-  --llm_name $LLM_NAME \
   --optimized_spatial \
   --optimized_temporal \
   --diff \

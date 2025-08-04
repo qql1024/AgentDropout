@@ -14,11 +14,16 @@ from AgentDropout.llm.llm import LLM
 from AgentDropout.llm.llm_registry import LLMRegistry
 
 import torch
+import json
 
 
 load_dotenv()
 MINE_BASE_URL = os.getenv("MINE_BASE_URL")
 MINE_API_KEYS = os.getenv("VLLM_API_KEY")
+MINE_CONFIG_PATH = "/mnt/ccnas2/bdp/ql1024/AgentDropout/configs/X-MAS_Bench_config.json"
+
+with open(MINE_CONFIG_PATH, "r") as f:
+    config = json.load(f)
 
 # print(MINE_BASE_URL)
 
@@ -91,7 +96,8 @@ async def achat_deepseek(model: str, msg: List[Dict],):
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
 async def achat_llama(model: str, msg: List[Dict]):
     # print(111111111111)
-    api_kwargs = dict(api_key = MINE_API_KEYS, base_url = MINE_BASE_URL)
+    # print(f"model={model}, model_url={config["model_list"][model]['model_url']}")
+    api_kwargs = dict(api_key = MINE_API_KEYS, base_url = config["model_list"][model]["model_url"])
     aclient = AsyncOpenAI(**api_kwargs)
     try:
         async with async_timeout.timeout(1000):
@@ -310,6 +316,7 @@ class LlamaChat(LLM):
         if isinstance(messages, str):
             messages = [Message(role="user", content=messages)]
         # return await achat_llama(self.model, self.tokenizer, messages)
+        # print(f"model={self.model_name}, model_url={config["model_list"][self.model_name]['model_url']}")
         return await achat_llama(self.model_name, messages)
 
     

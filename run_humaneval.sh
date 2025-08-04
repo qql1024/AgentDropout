@@ -39,6 +39,8 @@ source .env
 set +a
 echo "LLM_NAME: '$LLM_NAME'"
 
+config_path="./configs/X-MAS_Bench_config.json"
+
 
 # Line 38 (or the relevant line):
 python experiments/run_humaneval.py \
@@ -49,7 +51,7 @@ python experiments/run_humaneval.py \
   --imp_per_iterations 1 \
   --pruning_rate 0.10 \
   --num_rounds 2 \
-  --llm_name $LLM_NAME \
+  --config_path $config_path \
   --optimized_spatial \
   --optimized_temporal \
   --diff \

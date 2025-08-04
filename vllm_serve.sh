@@ -18,4 +18,5 @@ export TRANSFORMERS_CACHE=$HF_HOME
 CUDA_VISIBLE_DEVICES=2 vllm serve $LLM_NAME \
     --dtype auto \
     --api-key $VLLM_API_KEY \
-    --port $VLLM_PORT
+    --port 6910 \
+    --max-model-len 41440 &

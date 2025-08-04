@@ -16,6 +16,7 @@ from AgentDropout.utils.const import AgentPrune_ROOT
 from AgentDropout.utils.globals import PromptTokens, CompletionTokens
 import torch
 
+import json
 
 
 def parse_args():
@@ -43,8 +44,9 @@ def parse_args():
                         help="Number of optimization/inference rounds for one query")
     parser.add_argument('--pruning_rate', type=float, default=0.25,
                         help="The Rate of Pruning. Default 0.05.")
-    parser.add_argument('--llm_name', type=str, default="gpt-3.5-turbo",
-                        help="Model name, None runs the default ChatGPT4")
+    # parser.add_argument('--llm_name', type=str, default="gpt-3.5-turbo",
+    #                     help="Model name, None runs the default ChatGPT4")
+    parser.add_argument("--config_path", type=str, default="")
     parser.add_argument('--domain', type=str, default="mmlu",
                         help="Domain (the same as dataset name), default 'MMLU'")
     parser.add_argument('--decision_method', type=str, default="FinalRefer",
@@ -71,9 +73,13 @@ async def main():
     # print(agent_names)
     kwargs = get_kwargs(mode,len(agent_names))
     limit_questions = 153
+
+    with open(args.config_path, "r") as f:
+        config = json.load(f)
+        llm_list = list(config["model_list"].keys())
     
     graph = Graph(domain=args.domain,
-                  llm_name=args.llm_name,
+                  llm_list=llm_list,
                   agent_names=agent_names,
                   decision_method=decision_method,
                   optimized_spatial=args.optimized_spatial,

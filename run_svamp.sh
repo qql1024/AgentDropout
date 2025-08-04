@@ -41,8 +41,9 @@ echo "LLM_NAME: '$LLM_NAME'"
 
 config_path="./configs/X-MAS_Bench_config.json"
 
+
 # Line 38 (or the relevant line):
-python experiments/run_gsm8k.py \
+python experiments/run_svamp.py \
   --agent_nums 5 \
   --mode FullConnected \
   --batch_size 40 \

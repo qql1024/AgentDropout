@@ -22,7 +22,7 @@ class Graph(ABC):
     
     Attributes:
         domain (str): The domain for which this graph is used.
-        llm_name (str): The name of the llm that used for processing within the nodes.
+        llm_list (str): The name of the llm that used for processing within the nodes.
         nodes (dict): A collection of nodes, each identified by a unique UUID.
 
     Methods:
@@ -33,7 +33,7 @@ class Graph(ABC):
 
     def __init__(self, 
                 domain: str,
-                llm_name: Optional[str],
+                llm_list: Optional[List],
                 agent_names: List[str],
                 decision_method: str,
                 optimized_spatial:bool = False,
@@ -62,11 +62,11 @@ class Graph(ABC):
         
         self.id:str = shortuuid.ShortUUID().random(length=4)
         self.domain:str = domain
-        self.llm_name:str = llm_name
+        self.llm_list:list = llm_list
         self.agent_names:List[str] = agent_names
         self.optimized_spatial = optimized_spatial
         self.optimized_temporal = optimized_temporal
-        self.decision_node:Node = AgentRegistry.get(decision_method, **{"domain":self.domain,"llm_name":self.llm_name})
+        self.decision_node:Node = AgentRegistry.get(decision_method, **{"domain":self.domain,"llm_name":self.llm_list[0]})
         self.nodes:Dict[str,Node] = {}
         self.potential_spatial_edges:List[List[str, str]] = []
         self.potential_temporal_edges:List[List[str,str]] = []
@@ -156,10 +156,14 @@ class Graph(ABC):
         """
         Creates and adds new nodes to the graph.
         """
-        for agent_name,kwargs in zip(self.agent_names,self.node_kwargs):
+        print(self.agent_names, self.node_kwargs)
+        print(f"llm_list={self.llm_list}")
+        for i, (agent_name,kwargs) in enumerate(zip(self.agent_names,self.node_kwargs)):
             if agent_name in AgentRegistry.registry:
                 kwargs["domain"] = self.domain
-                kwargs["llm_name"] = self.llm_name
+                # kwargs["llm_name"] = random.choice(self.llm_list)
+                kwargs["llm_name"] = self.llm_list[i % len(self.llm_list)]
+                print(f"llm_name={kwargs['llm_name']}")
                 agent_instance = AgentRegistry.get(agent_name, **kwargs)
                 self.add_node(agent_instance)
     

@@ -45,7 +45,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description="AgentPrune Experiments on gsm8k")
     parser.add_argument("--dataset_json", type=str, default="datasets/gsm8k/gsm8k.jsonl")
     parser.add_argument("--result_file", type=str, default=None)
-    parser.add_argument("--llm_name", type=str, default="gpt-3.5-turbo")
+    # parser.add_argument("--llm_name", type=str, default="gpt-3.5-turbo")
+    parser.add_argument("--config_path", type=str, default="")
     parser.add_argument('--mode', type=str, default='FullConnected',
                         choices=['DirectAnswer', 'FullConnected', 'Random', 'Chain','Debate','Layered','Star'],
                         help="Mode of operation. Default is 'FullConnected'.")
@@ -95,8 +96,12 @@ async def main():
     decision_method = args.decision_method
     kwargs = get_kwargs(args.mode,len(agent_names))
 
+    with open(args.config_path, "r") as f:
+        config = json.load(f)
+        llm_list = list(config["model_list"].keys())
+
     graph = Graph(domain="gsm8k",
-                llm_name=args.llm_name,
+                llm_list=llm_list,
                 agent_names=agent_names,
                 decision_method=decision_method,
                 optimized_spatial=args.optimized_spatial,

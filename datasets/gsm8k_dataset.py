@@ -51,9 +51,9 @@ def math_data_process(dataset):
     # extract the question, step and answer
     list_data_dict = []
     for data in dataset:
-        item = {"task":data["problem"]}
+        item = {"task":data["query"]}
         item["step"] = ''
-        item["answer"] = data["answer"]
+        item["answer"] = data["gt"]
         list_data_dict.append(item)
 
     return list_data_dict

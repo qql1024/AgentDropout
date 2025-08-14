@@ -38,14 +38,16 @@ set -a
 source .env
 set +a
 echo "LLM_NAME: '$LLM_NAME'"
+echo "AGENT_NUM: '$AGENT_NUM'"
+echo "MODE: '$MODE'"
 
 config_path="./configs/X-MAS_Bench_config.json"
 
 
 # Line 38 (or the relevant line):
 python experiments/run_mmlu.py \
-  --agent_nums 5 \
-  --mode FullConnected \
+  --agent_nums $AGENT_NUM \
+  --mode $MODE \
   --batch_size 40 \
   --num_iterations 2 \
   --imp_per_iterations 1 \

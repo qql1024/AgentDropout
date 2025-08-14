@@ -45,7 +45,7 @@ config_path="./configs/X-MAS_Bench_config.json"
 
 
 # Line 38 (or the relevant line):
-python experiments/run_multiarith.py \
+python experiments/run_math500.py \
   --agent_nums $AGENT_NUM \
   --mode $MODE \
   --batch_size 40 \
@@ -53,7 +53,7 @@ python experiments/run_multiarith.py \
   --imp_per_iterations 1 \
   --pruning_rate 0.10 \
   --num_rounds 2 \
-  --config_path "$config_path" \
+  --config_path $config_path \
   --optimized_spatial \
   --optimized_temporal \
   --diff \

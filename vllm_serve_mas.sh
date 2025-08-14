@@ -26,7 +26,7 @@ export TRANSFORMERS_CACHE=$HF_HOME
 #     --api-key $VLLM_API_KEY \
 #     --port $(($VLLM_PORT + 1)) &
 
-CUDA_VISIBLE_DEVICES=3 vllm serve "Qwen/Qwen2.5-7B-Instruct" \
+CUDA_VISIBLE_DEVICES=3 vllm serve "Qwen/Qwen2.5-Coder-7B-Instruct" \
     --dtype auto \
     --api-key $VLLM_API_KEY \
     --port $(($VLLM_PORT + 5)) &
